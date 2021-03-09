@@ -1,16 +1,16 @@
 
-#section3 {
+#section2 {
     background-image: url("https://static.buffer.com/marketing/static/background/jagged-border.svg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
 }
-#section3 div{
+#section2 div{
     width: 992px;
     margin: auto;
     text-align: center;
 }
-#section3 h3 {
+#section2 h3 {
     padding: 7.5% 0 2.5%; 
 }
 #icons {
@@ -40,7 +40,7 @@
     grid-area: g;
 }
 
-#section4 {
+#section3 {
     width: 800px;
     margin: 2.5vw auto;
     text-align: center;
@@ -62,7 +62,7 @@
 }
 #r1, #l1 {
     text-align: left;
-    height: 100%;
+    height: 90%;
     padding: 10%;
     background-color: rgba(245,245,245,255);
 }
@@ -77,18 +77,18 @@
     box-shadow: rgb(0 0 0 / 15%) 0px 20px 50px 5px;
     border-radius: 5px;
 }
-#section4 h3 {
+#section3 h3 {
     font-weight: bold;
 }
-#section4 input {
+#section3 input {
     width: 100%;
-    height: 20%;
+    height: 15%;
     margin-top: 10%;
     border-radius: 10px;
     background-color: #2c4bff;
     color: white;
 }
-#section4 input:hover {
+#section3 input:hover {
     background-color: #0026fd;
     cursor: pointer;
 }
@@ -96,7 +96,7 @@
     font-size: 17.5px;
 }
 
-#section5 {
+#section4 {
     background-color: rgba(44,75,255,255);
     height: 30vw;
 }
@@ -122,5 +122,4 @@
 #r2 h2 {
     font-weight: bold;
     font-size: 30px;
-
 }
