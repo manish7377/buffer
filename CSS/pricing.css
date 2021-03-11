@@ -1,0 +1,48 @@
+#publishing {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    gap: 5%;
+    grid-template: "a b c d"
+                    "e e e e";
+}
+#box1 img, #box2 img, #box3 img, #box4 img {
+    width: 50%;
+}
+#box1 div, #box2 div, #box3 div, #box4 div {
+    height: 50%;
+}
+#box1 {
+    grid-area: a;
+    border: 1px solid black;
+}
+#box2 {
+    grid-area: b;
+    border: 1px solid black;
+}
+#box3 {
+    grid-area: c;
+    border: 1px solid black;
+}
+#box4 {
+    grid-area: d;
+    border: 1px solid black;
+}
+#box5 {
+    padding: 2.5%;
+    grid-area: e;
+    border: 1px solid black;
+}
+.tick {
+    text-align: left;
+}
+.tick::before {
+    content: "";
+    background-image: url(https://static.buffer.com/marketing/static/icons/check-mark.svg);
+    background-repeat: no-repeat;
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}

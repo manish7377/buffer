@@ -7,7 +7,7 @@
     height: 250px;
 }
 #section2 div{
-    width: 100%;
+    width: 80%;
     margin: auto;
     text-align: center;
 }
@@ -128,6 +128,76 @@
     font-size: 30px;
 }
 
+/* ------------------------- section - 6 ------------------------- */
+#section61 {
+    margin-bottom: -2%;
+}
+#section62 {
+    background-color: #f5f5f5;
+}
+#image {
+    width: 75%;
+    padding: 5%;
+    margin: auto;
+    display: grid;
+    gap: 5%;
+    grid-template: "a b c d"
+                    "e f g h";
+}
+#image div:nth-child(1) {
+    grid-area: a;
+}
+#image div:nth-child(2) {
+    grid-area: b;
+}
+#image div:nth-child(3) {
+    grid-area: c;
+}
+#image div:nth-child(4) {
+    grid-area: d;
+}
+#image div:nth-child(5) {
+    grid-area: e;
+}
+#image div:nth-child(6) {
+    grid-area: f;
+}
+#image div:nth-child(7) {
+    grid-area: g;
+}
+#image div:nth-child(8) {
+    grid-area: h;
+}
+#image div:nth-child(9) {
+    grid-area: i;
+}
+#section62 h2{
+    font-family: Poppins, sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.75rem;
+    font-family: Roboto, sans-serif;
+    margin: auto;
+    max-width: 60%;
+    text-align: center;
+}
+#section62 > div > div > img{
+    width: 75px;
+}
+#section62 > div > div > h4{
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    color: rgb(0, 0, 0)
+}
+#section62 > div > div > p{
+    line-height: 1.7;
+    font-size: 1rem;
+    font-family: Roboto, sans-serif;
+}
+
 /* ------------------------- section - 11 ------------------------- */
 #section11 {
     background-color: rgba(44,75,255,255);
@@ -184,6 +254,7 @@
     background-position: 0% 5%, 200% 50%, 85% 75%;
     position: static;
 }
+
 /* ------------------------- Responsive - Mobile ------------------------- */
 @media only screen and (max-width: 600px) {
     /* ------------------------- section - 2 ------------------------- */
@@ -246,6 +317,21 @@
         margin-left: 25%;
         width: 200px;
         border-radius: 100px;
+    }
+
+    /* ------------------------- section - 6 ------------------------- */
+    #section62 h2{
+        margin: auto;
+        max-width: 80%;
+        text-align: center;
+    }
+    #image {
+        width: 40%;
+        padding: 5%;
+        margin: auto;
+        display: grid;
+        gap: 0;
+        grid-template: "a" "b" "c" "d" "e" "f" "g" "h";
     }
 
     /* ------------------------- section - 11 ------------------------- */
