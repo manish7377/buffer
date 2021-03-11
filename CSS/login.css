@@ -1,0 +1,106 @@
+#log {
+    display: flex;
+}
+
+#log1 {
+    background-color: white;
+    width: 35%;
+    /* margin: auto; */
+    height: 800px;
+
+}
+
+#log2 {
+    background-color: rgba(245, 245, 245, 255);
+    width: 65%;
+    height: 800px;
+}
+
+#log2>div {
+    width: 65%;
+    margin: auto;
+    text-align: center;
+}
+
+#log2>div>img {
+    width: 80%;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+#log2>div>button {
+    background-color: rgba(245, 245, 245, 255);
+    border: 1px solid rgba(44, 75, 255, 255);
+    color: rgba(44, 75, 255, 255);
+    height: 50px;
+    width: 150px;
+    border-radius: 4px;
+}
+
+#log1 div:nth-child(1)>img {
+    width: 140px;
+    padding: 2.3% 10%;
+    margin-top: 5%;
+}
+
+#log1>#form {
+    width: 100%;
+    margin-left: 15%;
+    text-align: left;
+}
+
+#form>form>input {
+    width: 300px;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#form>button {
+    width: 310px;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgba(44, 75, 255, 255);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgba(44, 75, 255, 255);
+}
+
+#flex {
+    display: flex;
+    color: gray;
+}
+
+#form>#flex>div:nth-child(2) {
+    margin-left: 42px;
+}
+
+#log1>div>p {
+    margin-top: 50px;
+    color: gray;
+    text-align: center;
+}
+#form>button:hover{
+        color:rgba(44,75,255,255);
+        background-color:blue;
+        color: white;
+        
+    }
+    #flex>div:hover
+    {
+        color: black;
+    }
+    #log2>div>button:hover
+    {
+        background-color: white;
+    }
+@media only screen and (max-width: 1300px) {
+    #log2 {
+        display: none;
+    }
+
+    #log1 {
+        flex-basis: 100%;
+    }
+}
