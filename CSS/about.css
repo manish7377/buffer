@@ -425,10 +425,10 @@ a {
     margin-right:1%;
     
 }
-#layout div:nth-child(1) > img {
+#layout div:nth-child(1) > a > img {
     width:140px;
-    padding:2.3% 10%;
-    margin-top:5%;
+    padding: 1.5% 10%;
+    margin-top:0%;
 }
 #nav_menu {
     display:inline-block;
