@@ -1,5 +1,5 @@
 var email1=document.getElementById("email11")
-email1.innerHTML=localStorage.getItem("Email")
+email1.innerHTML=localStorage.getItem("email")
 
 // --------------------
 
