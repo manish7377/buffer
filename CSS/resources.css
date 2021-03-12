@@ -36,9 +36,12 @@ width: 28%;
 margin:2%;
 float: left;
 }
+.intro >p{
+    margin-left: -2%;
+}
 .intro > img{
   width:100%;
-  height: 45%;
+  height: 35vh;
 }
 .intro > h3{
 font-size: 1.3rem;
@@ -52,6 +55,10 @@ color: #231f20
   
   float: left;
   padding: 2%;
+}
+.side > p{
+    margin-left: -5%;
+    margin-bottom: 20%;
 }
  .mid{
    width: 40%;
@@ -194,8 +201,9 @@ h3{
 
   .flex {
       display: flex;
+      
   }
-
+   
   .main_row div {
 
       padding: 2% 2%;
@@ -335,6 +343,7 @@ h3{
   {
      width:100%;
      border-radius: 5px;
+     
   }
   .flex1>div
   {
@@ -349,5 +358,102 @@ h3{
   {
       margin-left: 20px;
   }
-  h3
-  {color: greenyellow;}
+  h3{
+      color: whitesmoke;
+  }
+    .flex > div > p{
+ color: whitesmoke;
+    }
+
+ 
+.flex > div >h2:hover{
+    color: yellowgreen;
+} 
+
+.t:hover{
+    background-color: yellowgreen;
+}
+ 
+.flex2 > div > h2:hover{
+    color: yellowgreen;
+}
+  
+.brown > h3:hover{
+    color: yellowgreen;
+}
+
+
+
+#section11 {
+    background-color: rgba(44, 75, 255, 255);
+    padding: 10px;
+    display: grid;
+    grid-template: "left center right";
+}
+#l3 {
+    grid-area: left;
+    height: 100%;
+    background-image: url(https://static.buffer.com/marketing/static/background/triangle-green.svg), url(https://static.buffer.com/marketing/static/background/planet@2x.png), url(https://static.buffer.com/marketing/static/background/circle-pink.svg);
+    background-repeat: no-repeat;
+    background-size: 35%, 75%, 35%;
+    background-position: 75% 5%, -25% 40%, 75% 110%;
+    position: static;
+}
+#c3 {
+    grid-area: center;
+    text-align: center;
+    color: white;
+    padding: 2.5%;
+}
+#c3 h2 {
+    width: 60%;
+    margin: 5% auto 0;
+    line-height: 39px;
+    margin-bottom: 30px;
+}
+#c3 input {
+    margin-top: 2.5%;
+    height: 25%;
+    width: 180px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: #e97284;
+    border: 1px solid #e97284;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#c3 input:hover {
+    background-color: #db2641;
+    cursor: pointer;
+}
+#c3>div {
+    width: 50%;
+    margin: auto;
+}
+#c3>div p {
+    float: left;
+    padding: 2.5%;
+}
+.clear {
+    clear: both;
+}
+#r3 {
+    grid-area: right;
+    height: 100%;
+    background-image: url(https://static.buffer.com/marketing/static/background/circle-brush@2x.png), url(https://static.buffer.com/marketing/static/background/lines-orange.svg), url(https://static.buffer.com/marketing/static/background/triangle-yellow.svg);
+    background-repeat: no-repeat;
+    background-size: 20%, 75%, 20%;
+    background-position: 0% 5%, 200% 50%, 85% 75%;
+    position: static;
+}
+
+.under:hover{
+    text-decoration:underline;
+}
+
+.pop:hover{ 
+    -ms-transform:scale(1.2);
+  -webkit-transform:scale(1.2) ;
+  transform:scale(1.2) ;
+  }
