@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equic="X-UA-Compatible" Content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="loggedin.css">
+    </head>
+
+    <body>
+        <nav class="main1">
+            <div class="main2"><a href="#" class="main3 main4" title="" font-weight="500">Skip to main content</a>
+                <div class="main5">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.25 4.71874L9 1.08887L15.75 4.71874L9 8.28887L2.25 4.71874ZM4.41963 7.87503L9.00001 10.2026L13.6286 7.87503L15.7862 8.96123L9.00001 12.375L2.28617 8.96123L4.41963 7.87503ZM4.38347 11.925L9 14.4917L13.5924 11.925L15.75 13.1167L9 16.875L2.25 13.1167L4.38347 11.925Z" fill="#231F20"></path>
+                    </svg>
+                </div>
+                <nav class="main6">
+                    <a href="#" id="product-publish" class="main7">
+                        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.38324 6.40009L10.3798 10.407V16.0001L0.771271 6.40009H6.38324Z" fill="#132062"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16.9979 13.5234V0H3.47618L16.9979 13.5234Z" fill="#6B81FF"></path>
+                        </svg>
+                        <span>Publishing</span>
+                    </a>
+                    <a href="#" class="main8">
+                        <svg width="19" height="20" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.1336 2.8703C3.28309 2.8703 0.167206 6.03021 0.167206 9.93515C0.167206 13.8401 3.28309 17 7.1336 17C10.9841 17 14.1 13.8401 14.1 9.93515H7.1336V2.8703Z" fill="#F3AFB9"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16 8.00839C16 4.10346 12.8841 0.943542 9.0336 0.943542V8.00839H16Z" fill="#132062"></path>
+                        </svg>
+                        <span>Analytics</span>
+                    </a>
+                    <a href="#" class="main8">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 9.03754H8.9274V16H16V9.03754Z" fill="#132062"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H13.8055V6.94855H6.83673V13.911L0 13.925V0Z" fill="#87C221"></path>
+                        </svg>
+                        <span>Engagement</span>
+                        <span class="submain8">New!</span>
+                    </a>
+                </nav>
+            </div>
+            <nav id="rightnav">
+                <div id="help">
+                    <a class="left1">
+                        <svg viewBox="0 0 16 16" class="left2">
+                            <g>
+                                <path fill-rule="evenodd"
+                                    d="M8 0a8 8 0 100 16A8 8 0 008 0zm-.896 8.42c-.154.378-.232.886-.232 1.524h1.75l.027-.417c.05-.446.249-.836.595-1.169l.554-.526c.433-.42.736-.8.909-1.142.173-.346.26-.713.26-1.1 0-.852-.267-1.51-.8-1.976-.533-.47-1.283-.704-2.249-.704-.957 0-1.714.246-2.27.738-.551.493-.831 1.174-.84 2.044H6.79c.01-.364.114-.649.314-.854.206-.21.477-.315.814-.315.71 0 1.066.386 1.066 1.156 0 .255-.068.499-.205.731-.136.228-.412.527-.827.896-.41.364-.693.736-.848 1.114zm-.123 2.871a.995.995 0 00-.307.752c0 .3.1.55.3.745.206.196.475.294.807.294.333 0 .6-.098.8-.294a.986.986 0 00.308-.745.984.984 0 00-.315-.752c-.205-.2-.47-.3-.793-.3-.323 0-.59.1-.8.3z"
+                                    clip-rule="evenodd"></path>
+                            </g>
+                        </svg>
+                        <span class="left3">Help</span>
+                    </a>
+                </div>
+                <div>
+                    <p id="email11"></p>
+                </div>
+            </nav>
+        </nav>
+        <script src="loggedin.js"></script>
+
+
+        <!-- -------------------3-------------------- -->
+
+
+    <div class="tab">
+        <p>Settings</p>
+        <button class="tablinks" onclick="open1(event, 'account')" class="btn"><i class="fa fa-user icon  "></i>
+            Account</button>
+        <button class="tablinks" onclick="open1(event, 'billing')" class="btn"><i class="fa fa-check  "></i>
+            Billing</button>
+        <button class="tablinks" onclick="open1(event, 'channel')" class="btn"><i class="fa fa-key  "></i>
+            Channels</button>
+        <button class="tablinks" onclick="open1(event, 'orginazation')" class="btn"><i class="fa fa-close  "></i>
+            Organization</button>
+    </div>
+
+    <div id="account" class="tabcontent">
+        <h1>Account</h1>
+        <div>
+            <label>Email Address</label><br>
+            <input id="email" type="email">
+            <br>
+            <button onclick="changeE()">Save Change</button>
+        </div>
+        <div>
+            <label>Password</label>
+            <input id="pass" type="password">
+            <br>
+            <button onclick="changeP()">Change Password</button>
+        </div>
+        <button style="color: blue; border: 1px solid #f5f5f5; margin-left: 215px;" onclick="go()">Data Privacy Requests</button>
+        <button style="color: grey;height:50px;" onclick="delet()">Delete My Buffer Account</button>
+
+    </div>
+
+    <div id="billing" class="tabcontent">
+        <h1>Billing</h1>
+        <div></div>
+        <div id="method">
+            <h2>Billing Method</h2>
+            <h3>Add a card for this organization</h3>
+            <button class="popup" onclick="myFunction()">Add Method
+                <span class="popuptext" id="myPopup">
+                    <h2 class="fa fa-key  ">Enter your payment details securely </h2>
+                    <input id="in" type="text" placeholder="card number        MM/YY      CVC">   
+                </span>
+                
+            </button>
+            <button onclick="pay()">Pay</button>
+        </div>
+        <div id="invoice">
+            <h2>Invoices</h2>
+            <div class="flex">
+                <h3 style="margin-right:220px;">Date</h3>
+                <h3 style="margin-right:180px;">Amount</h3>
+                <h3 style="margin-right: 10px;">Download</h3>
+            </div>
+
+            <div class="flex">
+                <p style="margin-right:150px;">March 11th, 2021 </p>
+                <p style="margin-right:190px;"> $0.00</p>
+                <a href="https://files.stripe.com/files/MDB8NDdpd3FsYVpXVXZ6Rkp6T2ZEVDNUSTZHbWlqbG9DV1d8Zl9saXZlX21VYVd6dWx3SDY1bDJTck8yVEY2ckhseg007tM9o0vN"> <button><i class="fa fa-download "></i> Download PDF</button></a>  
+            </div>
+        </div>
+    </div>
+
+
+    <div id="channel" class="tabcontent">
+        <h1>Connect a new channel</h1>
+        <p style="font-size:14px;">Looking for step-by-step instructions? Visit our Help Center to read our <a
+                style="color: blue;">Getting Started</a> guides and learn about supported channel types.</p>
+        <div>
+            <div class="flex">
+                <div>
+                    <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                    <h4>Instagram</h4>
+                    <p>Business accounts</p>
+                    <h5>Connect</h5>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                    <h4>Facebook</h4>
+                    <p>Page or Group</p>
+                    <h5>Connect</h5>
+                </div>
+                <div>
+                    <a href="https://twitter.com/" class="fa fa-twitter"></a>
+                    <h4>Twitter</h4>
+                    <p>Profile</p>
+                    <h5>Connect</h5>
+                </div>
+            </div>
+            <div class="flex">
+                <div>
+                    <a href="https://www.linkedin.com/notifications/" class="fa fa-linkedin"></a>
+                    <h4>LinkedIn</h4>
+                    <p>Page or Profile</p>
+                    <h5>Connect</h5>
+                </div>
+                <div>
+                    <a href="https://in.pinterest.com/" class="fa fa-pinterest"></a>
+                    <h4>Pinterest</h4>
+                    <p>Personal or Business</p>
+                    <h5>Connect</h5>
+                </div>
+                <div>
+                    <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+                    <h4>YouTube</h4>
+                    <p>Business accounts</p>
+                    <h5>Connect</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="orginazation" class="tabcontent">
+        <h1>Organization</h1>
+      
+        <div>
+            <h3>My Organization</h3>
+    
+            <h5>Creation Date</h5>
+            <p>March 11th, 2021</p>
+            <h5>Organization Name</h5>
+            <input id="org" type="text">
+            <br>
+            <button onclick="org">Save Change</button>
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+    </body>
+
+</html>
