@@ -1,5 +1,5 @@
 function btn(){
-    location.assign("/Users/kaustubhmendhe/Documents/unit2/project/buffer/Buffer/HTML/subscribe.html")
+    location.assign("E:\Buffer\HTML\subscribe.html")
     console.log("hi")
 }
  

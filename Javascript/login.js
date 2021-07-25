@@ -5,7 +5,7 @@ function check() {
     var x = document.getElementById("CE").value
     var y = document.getElementById("CP").value
     if (email1 == x && password1 == y) {
-        window.location.href = "/Users/kaustubhmendhe/Documents/unit2/project/buffer/Buffer/HTML/loggedin.html"
+        window.location.href = "E:\Buffer\HTML\loggedin.html"
     }
     else {
         alert("Wrong Password or Email")
@@ -14,5 +14,5 @@ function check() {
 
 function account()
 {
-    location.href="/Users/kaustubhmendhe/Documents/unit2/project/buffer/Buffer/HTML/signup.html"
+    location.href="E:\Buffer\HTML\signup.html"
 }
